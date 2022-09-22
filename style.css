@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+header {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header > h1#logo {
+    color:  #161616;
+    font-size: 1.5em;
+}
+
+div.produtos-main > img {
+    height: 300px;
+    width: 300px;
+}
+
+div#produto-texto-acima {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section#produtos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+   
+}
+
+div.produtos-main {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+   
+    
+
+}
+
+div.produtos-main > h3, p {
+    padding-top: 20px;
+}
+
+footer {
+    padding: 0 80px;
+    height: 350px;
+    margin-top: 25vh;
+}
+
+footer > div.footer-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+footer > div> ul {
+    list-style: none;
+}
+
+footer > ul > li {
+    cursor: pointer;
+    padding: 3px;
+}
+
+section#sociais-pagamentos {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
