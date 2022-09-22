@@ -39,6 +39,10 @@ header > div > img {
     margin: 0px 10px;
 }
 
+section#banner {
+    width: 100vw;
+}
+
 div.produtos-main > img {
     height: 280px;
     width: 280px;
